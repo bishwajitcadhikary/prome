@@ -35,5 +35,6 @@ return [
     'message'               => 'Message',
     'phone'                 => 'Phone',
     'send'                  => 'Send',
-    'contacts'              => 'Contact|Contacts'
+    'contacts'              => 'Contact|Contacts',
+    'company_profile'       => 'Company Profile'
 ];

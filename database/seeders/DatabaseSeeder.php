@@ -6,6 +6,7 @@ use App\Models\Carousel;
 use App\Models\OurAchievement;
 use App\Models\OurService;
 use App\Models\OurWork;
+use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -21,7 +22,7 @@ class DatabaseSeeder extends Seeder
         $settings = [
             [
                 'key'           => 'website.title',
-                'value'         => 'Prome Agro Foods Limited'
+                'value'         => 'প্রমি এগ্রো ফুড্স লিঃ'
             ],
             [
                 'key'           => 'website.phone',
@@ -74,6 +75,66 @@ class DatabaseSeeder extends Seeder
             [
                 'key'           => 'website.footer_text',
                 'value'         => '© 2018. All Rights Reserved By Prome Agro Foods Limited.'
+            ],
+            [
+                'key'           => 'website.logo',
+                'value'         => 'logo.png'
+            ],
+            [
+                'key'           => 'website.profile.company_name',
+                'value'         => 'প্রমি এগ্রো ফুড্স লিঃ'
+            ],
+            [
+                'key'           => 'website.profile.registration_number',
+                'value'         => 'P287321023 BD ltd.'
+            ],
+            [
+                'key'           => 'website.profile.trade_license',
+                'value'         => 'BD PGd897354755'
+            ],
+            [
+                'key'           => 'website.profile.company_tag_line',
+                'value'         => 'প্রমি'
+            ],
+            [
+                'key'           => 'website.profile.website',
+                'value'         => 'www.prome..dhf.com'
+            ],
+            [
+                'key'           => 'website.profile.bank_account',
+                'value'         => 'DBL-34868946253'
+            ],
+            [
+                'key'           => 'website.profile.bank_account_2',
+                'value'         => 'IBL-23442325655'
+            ],
+            [
+                'key'           => 'website.profile.mobile_banking',
+                'value'         => '13454897 (B-kash)'
+            ],
+            [
+                'key'           => 'website.profile.mobile_banking_2',
+                'value'         => '13454897 (B-kash)'
+            ],
+            [
+                'key'           => 'website.profile.total_employee_men',
+                'value'         => '1590 (পুরুষ)'
+            ],
+            [
+                'key'           => 'website.profile.total_employee_women',
+                'value'         => '1000 (মহিলা)'
+            ],
+            [
+                'key'           => 'website.profile.arrangement',
+                'value'         => '********'
+            ],
+            [
+                'key'           => 'website.profile.arrangement_2',
+                'value'         => '********'
+            ],
+            [
+                'key'           => 'website.profile.address',
+                'value'         => 'বাংলাদেশ'
             ],
         ];
 
@@ -225,5 +286,11 @@ class DatabaseSeeder extends Seeder
         foreach ($our_works as $our_work) {
             OurWork::create($our_work);
         }
+
+        User::factory()->create([
+            'email' => 'admin@demo.com',
+            'password' => bcrypt('pass1234'),
+            'is_admin' => 1
+        ]);
     }
 }

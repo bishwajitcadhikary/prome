@@ -53,31 +53,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="{{ route('home') }}">{{ trans('home_page') }}</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active' : null }}" href="{{ route('home') }}">{{ trans('home_page') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="profile.html">কোম্পানী প্রোফাইল</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'company-profile.index' ? 'active' : null }}" href="{{ route('company-profile.index') }}">{{ trans('general.company_profile') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="registration.html">চাকরির আবেদন</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        আমা‌দের কার্যক্রম
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Photos gallery</a></li>
-                        <li><a class="dropdown-item" href="#">Events</a></li>
-                    </ul>
+                    <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active' : null }}" href="registration.html">চাকরির আবেদন</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">সেবা সমূহ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">অ্যাওয়ার্ড</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('contact.form') }}">{{ trans_choice('general.contacts', 1) }}</a>
+                    <a class="nav-link {{ Route::currentRouteName() == 'contact.form' ? 'active' : null }}" href="{{ route('contact.form') }}">{{ trans_choice('general.contacts', 1) }}</a>
                 </li>
             </ul>
             <div class="login_nav">
