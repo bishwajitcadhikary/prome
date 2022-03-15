@@ -1,0 +1,59 @@
+.modal-dialog {
+	max-width: 600px;
+}
+.modal-header{
+    background-color: #71b844;
+    img{
+        width: 80px;
+    }
+    .modal-title{
+                font-family: $roboto;
+                font-size: 20px;
+                font-weight: 500;
+                color:white;
+                padding-left: 30px;
+    }
+}
+.modal-body{
+    height: 500px;
+    h3{
+        font-family: $roboto;
+        font-size: 24px;
+        font-weight: 500;
+        color:black;
+    }
+    form{
+        margin-top: 50px;
+        label{
+            font-family: $roboto;
+            font-size: 18px;
+            font-weight: 500;
+            color:black; 
+        }
+        .form-check-label{
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .form-check-input:checked {
+            background-color:#71b844 ;
+            border-color: #71b844;
+        }
+        button{
+            background-color: #71b844;
+            font-family: $roboto;
+            font-size: 18px;
+            font-weight: 500;
+            color:white; 
+            &:hover{
+                background-color:#156e43;
+                border-color: white;
+            }
+            &:focus {
+                color: #fff;
+                background-color:#156e43 ;
+                border-color: white;
+                box-shadow: 0 0 0 .25rem rgba(247, 248, 250, 0.5);
+            }
+        }
+    }
+}

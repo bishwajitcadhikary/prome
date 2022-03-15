@@ -1,0 +1,54 @@
+#profile{
+    .profile_header{
+        margin-top: 80px;
+        h2{
+            font-family: $roboto;
+            font-size: 38px;
+            font-weight: 500;
+            color: rgb(68, 66, 66);  
+            padding: 20px 0;
+        }
+       img{
+        width:35%;
+       }
+    }
+    .profile_body{
+        margin-top: 40px;
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: url(../images/bani.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 40%;
+            position: relative;
+            opacity: .6;
+            z-index: 1;
+            margin-top: 10px;
+            &::after{
+             position: absolute;
+             content: '';
+             top: 0;
+             left: 0;
+             height: 100%;
+             width: 100%;
+             background-color:rgba(160, 206, 173, 0.6);
+             z-index: -1;
+            }
+            tr{
+                   td{
+                            width: 33.33%;
+                            border: 2px solid rgb(102, 101, 101);
+                            text-align: left;
+                            padding: 21px;
+                            font-family: $roboto;
+                            font-size: 18px;
+                            font-weight: 700;
+                            color: black;
+                     }
+               }
+          }
+          
+    }
+}

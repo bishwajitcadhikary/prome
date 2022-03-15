@@ -1,0 +1,240 @@
+@media (max-width: 575.98px){ 
+/*  Header part */
+    #header {
+        height: 55px;
+    }
+    #header .header_right ul li a i {
+        font-size: 18px;
+    }
+    #header .header_right ul li {
+        margin: 0 1px;
+    }
+    #header .header_right ul li a {
+        padding: 5px 8px;
+    }
+    #header .header_left a span {
+        font-size: 13px;
+    }
+	.header_right{
+		margin-left: -30px;
+	}
+
+/* nav part */
+.navbar {
+	height: 85px;
+}
+.navbar-collapse{
+    background-color: #156e43;
+    text-align: center;
+
+}
+.navbar .navbar-nav .nav-item .active {
+	background-color: transparent;
+}
+.navbar .navbar-nav .nav-item:hover {
+	background-color: #71b844;
+}
+
+/* banner part start */
+.carousel-indicators [data-bs-target] {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 10px;
+	height: 10px;
+}
+/* service part */
+#service .service_header p {
+	font-size: 14px;
+	line-height: 28px;
+	
+}
+/* work part */
+#work .work_header p {
+	font-size: 14px;
+}
+
+/* award part */
+#announce .announce_main .announs_text h4 {
+	font-size: 16px;
+}
+.award_text{
+   padding-top: 20px;
+}
+
+/*  location part start */
+
+#location .location_left h5 {
+	padding: 20px 10px;
+}
+/* offcan part */
+.offcanvas-start {
+
+	width: 300px;
+}
+/* footer part star */
+#footer .footer_main {
+	padding: 0px 0;
+}
+#footer {
+	background-color: #17804d;
+	margin-top: 50px;
+}
+#footer .footer_main .footer_1 {
+	padding-top: 30px;
+}
+#footer .footer_main .footer_1 p {
+	font-size: 15px;
+	padding: 10px 0;
+}
+#footer .footer_main .footer_2 {
+	padding-top: 40px;
+}
+#footer .footer_main .footer_2 .links ul li a {
+	font-size: 17px;
+}
+#footer .footer_main .footer_3 {
+	padding-top: 40px;
+}
+#footer .footer_main .footer_3 h3 {
+	font-size: 18px;
+}
+#footer .footer_main .footer_3 .footer_icon ul{
+	margin-left: -170px;
+}
+#footer .footer_last h3 {
+	font-size: 13px;
+	line-height: 60px;
+}
+#footer .footer_main .footer_2 .links ul li a span {
+	font-size: 23px !important;
+}
+
+
+/* registration part start */
+#registration .reg_main .reg_titel {
+	padding: 30px 0 0 30px;
+}
+#registration .reg_main .reg_titel h2 {
+	font-size: 20px;
+}
+#registration .reg_main .reg_titel h3 {
+	font-size: 19px;
+}
+#registration .reg_main .reg_titel h4 {
+	font-size: 18px;
+}
+#registration .reg_main .reg_titel h5 {
+	font-size: 18px;
+}
+#registration .reg_main .reg_img {
+	height: 170px;
+	width: 150px;
+	margin-top: 40px;
+}
+#registration .reg_main .reg_img .img_item i {
+	font-size: 30px;
+}
+#registration .reg_main .reg_img .img_item p {
+	font-size: 18px;
+}
+#registration .reg_main .reg_table .reg_table_title .border_bottom {
+	padding: 5px 0;
+}
+
+#registration .reg_main .reg_table .reg_table_title .title_name h4 {
+	font-size: 16px;
+	line-height: 24px;
+	
+}
+#registration .reg_main .reg_table .reg_table_title form input {
+	width: 90%;
+	height: 40px;
+	padding: 10px 20px;
+}
+#registration .reg_main .reg_table .reg_table_title .title_name h4 span {
+	padding-right: 2px;
+}
+
+#registration .top_up{
+	margin-top: 5px;
+}
+
+#registration .center{
+	margin: 0 auto;
+}
+
+#registration .reg_main .reg_table .reg_table_title .border_bottom .cheque ul li {
+	font-size: 16px;
+}
+
+#registration .reg_main .reg_table .reg_table_title .border_bottom .cheque ul li input {
+	height: 16px;
+}
+#registration .reg_main .reg_footer h4 {
+	font-size: 17px;
+	line-height: 28px;
+}
+#registration .reg_main .reg_footer .footer_left::after {
+	left: 40px;
+	width: 160px;
+}
+
+#registration .reg_main .reg_header h2 {
+	font-size: 24px;
+}
+#registration .reg_main .reg_footer .footer_left h3 {
+	font-size: 18px;
+}
+#registration .reg_main .reg_footer .footer_right h3 {
+	font-size: 18px;
+}
+#registration .reg_main .reg_footer .footer_right::after {
+	right: 30px;
+	width: 160px;
+
+}
+#registration .reg_main .reg_table .reg_table_title {
+	padding: 25px 0;
+}
+
+#registration .reg_main .reg_table .reg_table_title form .education {
+	width: 110% !important;
+	height: 30px;
+}
+
+#registration .edu_none{
+	display: none;
+}
+#registration .form-control {
+	width: 90%;
+}
+#registration .reg_main .reg_footer .footer_right form input {
+	width: 85px;
+}
+#registration .reg_main .reg_img .img_item form input {
+	width: 85px;
+}
+#registration .reg_main .reg_footer .footer_left form {
+	left: -38px;
+}
+
+/* profile part */
+
+#award .blockk{
+	display: none;
+}
+
+#profile .profile_body table tr td {
+	border: 1px solid #666565;
+	text-align: start;
+	padding: 15px 5px;
+	font-size: 16px;
+}
+
+#profile .profile_body table {
+	background-size: 70%;
+}
+
+
+}

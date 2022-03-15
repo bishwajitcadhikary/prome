@@ -1,0 +1,38 @@
+#announce{
+background: url(../images/carrer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0;
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  &::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: -1;
+  }
+  .announce_main{
+      .announce_img{
+          margin: 20px 0;
+      }
+      .announs_text{
+          h4{
+            font-family: $oswald;
+            font-size: 20px;
+            font-weight: 500;
+            color: white; 
+            line-height: 35px;
+            span{
+                color: #8bdd58;
+            }
+          }
+      }
+  }
+}

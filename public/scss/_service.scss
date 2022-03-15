@@ -1,0 +1,107 @@
+#service{
+    .service_header{
+           margin: 0 auto;
+           text-align: center;
+           margin-top: 80px;
+           padding: 20px 20px;
+           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        h3{
+            font-family: $oswald;
+            font-size: 30px;
+            font-weight: 700;
+            color: black;
+            span{
+                color: #fd6802;
+            }
+        }
+        p{
+            font-family: $oswald;
+            font-size: 15px;
+            font-weight: 500;
+            color: $text;
+            line-height:32px;
+            padding-top: 30px;
+        }
+    }
+
+    .service_text_item{
+        .accordion{
+            margin-top: 50px;
+            .accordion-item{
+                .accordion-header{
+                    padding: 10px 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                    .accordion-button {
+                        font-family: $roboto;
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: black;
+                       &:focus{
+                        z-index: 3;
+                        border-color: transparent; 
+                        outline: 0;
+                        box-shadow: 0 0 0 0; 
+                       }
+                       &:not(.collapsed) {
+                        color: #fd6802;
+                        background-color: transparent; 
+                        box-shadow:none; 
+                    }
+                    }
+                }
+                .accordion-collapse{
+                    .accordion-body{
+                        p{
+                            font-family: $opensons;
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: $text;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  .service_main{
+      margin-top: 30px;
+    .service_part{
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        &:hover .service_img img{
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            transition: all linear .7s;
+            -webkit-transition: all linear .7s;
+            -moz-transition: all linear .7s;
+            -ms-transition: all linear .7s;
+            -o-transition: all linear .7s;
+}
+      .service_img{
+         overflow: hidden;
+          img{
+              width: 100%;
+          }
+      }
+      .service_text{
+          padding: 15px 15px;
+          h4{
+            font-family: $oswald;
+            font-size: 22px;
+            font-weight: 700;
+            color: #e45f06;
+          }
+          p{
+            font-family: $oswald;
+            font-size: 15px;
+            font-weight: 500;
+            color: $text;
+            line-height: 30px;
+          }
+      }
+  }
+  
+}
+}

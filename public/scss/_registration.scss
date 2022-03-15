@@ -1,0 +1,215 @@
+#registration{
+    margin-top: 100px;
+    .reg_main{
+        background-color: #e8f5e9;
+        border: 1px solid #71b844;
+        .reg_header{
+            padding-top: 30px;
+            h2{
+                font-family: $opensons;
+                font-size: 27px;
+                font-weight: 700;
+                color: black;
+                display: inline-block;
+                padding: 10px 0;
+                border-bottom: 2px solid #156e43;
+            }
+        }
+        .reg_titel{
+           padding: 30px 0 0 70px;
+           h2{
+            font-family: $opensons;
+            font-size: 22px;
+            font-weight: 500;
+            color: $text;
+           }
+           h3{
+            font-family: $opensons;
+            font-size: 23px;
+            font-weight: 500;
+            color: $text;
+            padding-top: 5px;
+           }
+           h4{
+            font-family: $opensons;
+            font-size: 20px;
+            font-weight: 500;
+            color: $text;
+            padding-top: 5px;
+           }
+           h5{
+            font-family: $opensons;
+            font-size: 20px;
+            font-weight: 500;
+            color: $text;
+            padding-top: 5px;
+           }
+        }
+        .reg_img{
+            margin: 0 0 0 auto;
+            height: 220px;
+            width: 190px;
+            border: 2px solid black;
+            margin-right: 70px;
+            .img_item{
+                text-align: center;
+                padding-top: 75px;
+                form{
+                    input{
+                        width: 80px;
+                    }
+                }
+                p{
+                    font-family: $roboto;
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: black;
+                    padding-top: 10px;
+                    
+            }
+
+            }
+            
+        }
+        .reg_table{
+            margin: 100px 25px 40px 25px;
+            border: 1px solid #156e43;
+            .reg_table_title{
+                overflow: hidden;
+                .border_bottom{
+                    border-bottom: 1px solid #2c9e67;
+                    padding: 10px 0;
+
+                    .cheque{
+                        ul{
+                            margin-left: -30px;
+                            line-height: 45px;
+                            li{
+                                display: inline-block;
+                                padding-right: 35px;
+                                font-family: $roboto;
+                                font-size: 19px;
+                                font-weight: 500;
+                                color: black;
+                                input{
+                                    height: 20px;
+                                    width: 20px;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                .title_name{
+                    padding-left: 10px;
+                    h4{
+                    font-family: $opensons;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: black;
+                    line-height: 45px;
+                    padding: 0 10px;
+                    span{
+                        font-weight: 700;
+                        padding-right: 5px;
+                    }
+                    }
+                }
+                form{
+                    input{
+                        width: 80%;
+                        height: 45px;
+                        padding: 10px 20px;
+                    }
+                 .date {
+                         margin-right: 10px;
+                        width: 120%;
+                    }
+                    .education{
+                        width: 100% !important;
+                        height: 45px;
+                        padding: 10px 20px;
+                    }
+                    .qulificitaion{
+                        height: 140px;
+                    }
+                }
+            }
+
+        }
+
+         .reg_footer{
+             padding: 0 20px;
+                  h4{
+                    font-family: $opensons;
+                    font-size: 19px;
+                    font-weight: 500;
+                    color: black;
+                    line-height: 34px;
+                  }
+            .footer_left{
+                padding: 90px 40px 40px 90px;
+                position: relative;
+             
+                    form {
+                        position: relative;
+                        top: -20px;
+                        left: -30px;
+                    }
+               
+                &::after{
+                    position: absolute;
+                    content: '';
+                    top: 59%;
+                    left: 22px;
+                    height: 2px;
+                    width: 200px;
+                    background-color: black;
+                }
+                h3{
+                    font-family: $opensons;
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: black;
+                    display: inline-block;
+                }
+            }
+
+            .footer_right{
+                padding: 90px 70px 40px 40px;
+                position: relative;
+                form{
+                    position: relative;
+                    top: -25px;
+                    input{
+                        width: 80px;
+                    }
+                }
+                &::after{
+                    position: absolute;
+                    content: '';
+                    top: 58%;
+                    right: 20px;
+                    height: 2px;
+                    width: 190px;
+                    background-color: black;
+                }
+                h3{
+                    font-family: $opensons;
+                    font-size: 19px;
+                    font-weight: 500;
+                    color: black;
+                    display: inline-block;
+                }
+            }
+              }
+
+    }
+    .eduside{
+        margin: 5px 1px;
+    }
+    .form-control{
+        width: 80%;
+    }
+}

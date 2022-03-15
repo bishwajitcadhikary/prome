@@ -1,0 +1,89 @@
+#work{
+    position: relative;
+    .work_header{
+        margin: 0 auto;
+           text-align: center;
+           margin-top: 80px;
+           padding: 20px 20px;
+           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        h3{
+            font-family: $oswald;
+            font-size: 30px;
+            font-weight: 700;
+            color: black;
+            span{
+                color: #fd6802;
+            }
+        }
+        p{
+            font-family: $oswald;
+            font-size: 15px;
+            font-weight: 500;
+            color: $text;
+            line-height:32px;
+            padding-top: 30px;
+        }
+    }
+    .work_main{
+        margin-top: 80px;
+        .work_slider{
+           .prev{
+               height: 50px;
+               width: 50px;
+               background-color:#fd6802;
+               line-height: 50px;
+               text-align: center;
+               font-size: 30px;
+               position: absolute;
+               top: 50%;
+               left: -10%;
+               cursor: pointer;
+               &:hover{
+                   background-color: #e05d05;
+               }
+           }
+           .next{
+            height: 50px;
+            width: 50px;
+            background-color:#fd6802;
+            line-height: 50px;
+            text-align: center;
+            font-size: 30px;
+            position: absolute;
+            top: 50%;
+            right: -10%;
+            cursor: pointer;
+            &:hover{
+                background-color: #e05d05;
+            }
+        }
+        .work_item{
+          margin: 10px 5px !important;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+           
+         .work_img{
+                img{
+                    width: 100%;
+                }
+            }
+            .work_text{
+                padding: 20px 10px;
+                h4{
+                    font-family: $oswald;
+                    font-size: 19px;
+                    font-weight: 700;
+                    color: black; 
+                }
+                p{
+                    font-family: $oswald;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: $text;
+                    line-height: 30px; 
+                }
+
+            }
+        }
+    }
+}
+}

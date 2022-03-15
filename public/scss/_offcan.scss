@@ -1,0 +1,58 @@
+.offcanvas-header{
+    background-color: #156e43;
+}
+.offcanvas-body{
+    background-color: #71b844;
+    .offcan_menu{
+        ul{
+            li{
+                padding: 10px 0;
+             a{
+                font-family: $roboto;
+                font-size: 18px;
+                font-weight: 500;
+                color: #fdfafa;
+                text-transform: uppercase;
+                &:hover{
+                    color: #0c4b2c;
+                }
+                span{
+                    font-size: 20px;
+                    margin-right: 10px;
+                }
+                } 
+            }
+        }
+    }
+    .login_nav{
+        ul{
+            margin-top: 10px;
+            margin-left: -30px;
+            li{
+                margin-left: 20px;
+                display: inline-block;
+                button{
+                    height: 40px;
+                    width: 90px;
+                    background-color: #f0562d;
+                    border-color: transparent;
+                    text-align: center;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                    &:hover{
+                        background-color:#156e43 ;
+                    }
+                    a{
+                        font-family: $roboto;
+                        font-size: 17px;
+                        font-weight: 500;
+                        color: #fdfafa;    
+                  }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "home_page": "Home Page",
+    "our_services": "<h3>আমাদের <span>সেবাসমূহ</span></h3>",
+    "our_achievements": "<h3>আমাদের <span>অর্জন</span></h3>",
+    "our_works": "<h3>আমাদের <span>কার্যক্রম</span></h3>",
+    "our_address": "<h3>আমাদের  <span> ঠিকানা</span></h3>",
+    "head_office": "প্রধান কার্যালয",
+    "about_us": "আমাদের সম্পর্কে",
+    "website_fax": "Fax: :number",
+    "website_email": "Email: :address",
+    "settings": "সেটিংস"
+}
