@@ -241,6 +241,10 @@ return [
                     'text' => 'our_achievements',
                     'route'  => 'admin.our-achievements.index',
                 ],
+                [
+                    'text' => 'our_works',
+                    'route'  => 'admin.our-works.index',
+                ],
             ],
         ],
 

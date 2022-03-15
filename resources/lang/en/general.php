@@ -28,5 +28,6 @@ return [
     'our_services'          => 'Our Service|Our Services',
     'is_accordion'          => 'Is Accordion',
     'description'           => 'Description',
-    'our_achievements'      => 'Our Achievement|Our Achievements'
+    'our_achievements'      => 'Our Achievement|Our Achievements',
+    'our_works'             => 'Our Work|Our Works'
 ];
