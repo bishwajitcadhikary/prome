@@ -5,5 +5,6 @@ return [
         'created'           => ':type Created Successfully',
         'updated'           => ':type Updated Successfully',
         'deleted'           => ':type Deleted Successfully',
+        'sent'              => ':type Sent Successfully'
     ]
 ];

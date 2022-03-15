@@ -1,0 +1,25 @@
+@extends('adminlte::page')
+
+@section('title', trans_choice('general.contacts', 2))
+
+@section('content_header')
+    <div class="d-flex justify-content-between gap-2">
+        <h1 class="m-0 text-dark">{{ trans_choice('general.contacts', 2) }}</h1>
+    </div>
+@stop
+
+@section('content')
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    {{ $dataTable->table(['class' => 'table table-bordered table-striped text-center rounded']) }}
+                </div>
+            </div>
+        </div>
+    </div>
+@stop
+
+@section('js')
+    {{ $dataTable->scripts() }}
+@endsection

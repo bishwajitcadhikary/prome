@@ -14,10 +14,14 @@ Route::group(['middleware' => ['auth', 'is_admin'], 'prefix' => 'admin', 'as' =>
     Route::get('settings', [CONT\SettingController::class, 'index'])->name('settings.index');
     Route::put('settings', [CONT\SettingController::class, 'update'])->name('settings.update');
     Route::put('settings/logo', [CONT\SettingController::class, 'updateLogo'])->name('settings.update.logo');
+
+    Route::resource('contacts', CONT\ContactController::class)->only('index');
 });
 
 
 Route::get('/', [CONT\FrontendController::class, 'home'])->name('home');
+Route::get('contact', [CONT\ContactController::class, 'form'])->name('contact.form');
+Route::post('contact', [CONT\ContactController::class, 'send'])->name('contact.send');
 
 Route::get('test', function (){
     return trans('head_office');

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css">
 </head>
 <body>
 <!--              Header Part Start
@@ -76,7 +77,7 @@
                     <a class="nav-link" href="#">অ্যাওয়ার্ড</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">যোগা‌যোগ</a>
+                    <a class="nav-link" href="{{ route('contact.form') }}">{{ trans_choice('general.contacts', 1) }}</a>
                 </li>
             </ul>
             <div class="login_nav">
@@ -164,8 +165,10 @@
 <script src="{{ asset('js/jquery.expander.min.js') }}"></script>
 <script src="{{ asset('js/slick.min.js') }}"></script>
 <script src="{{ asset('js/custom.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"></script>
 
-
+@yield('scripts')
 
 </body>
 </html>

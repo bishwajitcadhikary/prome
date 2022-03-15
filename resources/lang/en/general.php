@@ -29,5 +29,11 @@ return [
     'is_accordion'          => 'Is Accordion',
     'description'           => 'Description',
     'our_achievements'      => 'Our Achievement|Our Achievements',
-    'our_works'             => 'Our Work|Our Works'
+    'our_works'             => 'Our Work|Our Works',
+    'name'                  => 'Name',
+    'email'                 => 'Email',
+    'message'               => 'Message',
+    'phone'                 => 'Phone',
+    'send'                  => 'Send',
+    'contacts'              => 'Contact|Contacts'
 ];

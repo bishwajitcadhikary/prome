@@ -225,6 +225,12 @@ return [
     */
 
     'menu' => [
+
+        [
+            'text'    => 'contacts',
+            'icon'    => 'fas fa-fw fa-envelope',
+            'route'   => 'admin.contacts.index'
+        ],
         [
             'text'    => 'frontend',
             'icon'    => 'fas fa-fw fa-desktop',
